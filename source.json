@@ -6,14 +6,13 @@
   "website": "https://github.com/vanilla-wiiu/vanilla/",
   "patreonURL": "https://patreon.com/mattkc",
   "tintColor": "#22CBFF",
-  "featuredApps": [],
+  "featuredApps": ["com.mattkc.vanilla"],
   "apps": [
     {
       "name": "Vanilla",
       "bundleIdentifier": "com.mattkc.vanilla",
-      "developerName": "Example Developer",
-      "subtitle": "An awesome app.",
-      "localizedDescription": "This is an awesome app only available on AltStore.",
+      "developerName": "Mattkc",
+      "subtitle": "A Wii U gamepad emulator.",
       "iconURL": "https://aeryli.github.io/vanilla-alt/icon-1024.png",
       "tintColor": "#24ccfc",
       "category": "games",

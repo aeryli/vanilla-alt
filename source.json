@@ -1,0 +1,44 @@
+{
+  "name": "Vanilla (Wii U)",
+  "subtitle": "A source for Mattkc's Vanilla project.",
+  "description": "A source for Mattkc's Vanilla project, aa Wii U gamepad emulator.",
+  "iconURL": "https://aeryli.github.io/vanilla-alt/icon-1024.png",
+  "website": "https://github.com/vanilla-wiiu/vanilla/",
+  "patreonURL": "https://patreon.com/mattkc",
+  "tintColor": "#22CBFF",
+  "featuredApps": [],
+  "apps": [
+    {
+      "name": "Vanilla",
+      "bundleIdentifier": "com.mattkc.vanilla",
+      "marketplaceID": "",
+      "developerName": "Example Developer",
+      "subtitle": "An awesome app.",
+      "localizedDescription": "This is an awesome app only available on AltStore.",
+      "iconURL": "https://aeryli.github.io/vanilla-alt/icon-1024.png",
+      "tintColor": "#24ccfc",
+      "category": "games",
+      "screenshots": [],
+      "versions": [
+        {
+          "downloadURL": "https://github.com/vanilla-wiiu/vanilla/releases/download/continuous/vanilla-ios.ipa",
+          "size": 2580000,
+          "version": "1",
+          "buildVersion": "",
+          "date": "2026-09-10T00:09:00-07:00",
+          "localizedDescription": null,
+          "minOSVersion": null
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "Vanilla needs local network access to connect to your Wii U.",
+          "NSMicrophoneUsageDescription": "Vanilla needs microphone access to stream audio to your Wii U."
+        }
+      },
+      "patreon": {}
+    }
+  ],
+  "news": []
+}

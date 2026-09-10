@@ -1,0 +1,27 @@
+name: Get Version
+
+on:
+  push:
+  schedule:
+    - cron: '17 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  fetch-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get version number
+        id: fetch
+        run: |
+          TEXT_DATA=$(curl -sSL "https://raw.githubusercontent.com/vanilla-wiiu/vanilla/refs/heads/master/gui/res/com.mattkc.vanilla.desktop")
+          echo "$TEXT_DATA"
+          {
+            echo "text_data<<EOF"
+            echo "$TEXT_DATA"
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Use Output in Subsequent Step
+        run: |
+          echo "Retrieved content from step output:"
+          echo "${{ steps.fetch.outputs.text_data }}"

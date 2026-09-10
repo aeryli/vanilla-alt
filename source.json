@@ -24,7 +24,7 @@
           "downloadURL": "https://github.com/vanilla-wiiu/vanilla/releases/download/continuous/vanilla-ios.ipa",
           "size": 2580000,
           "version": "1",
-          "buildVersion": "",
+          "buildVersion": "1234",
           "date": "2026-09-10T00:09:00-07:00",
           "localizedDescription": null,
           "minOSVersion": null

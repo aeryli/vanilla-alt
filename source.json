@@ -13,6 +13,7 @@
       "bundleIdentifier": "com.mattkc.vanilla",
       "developerName": "Mattkc",
       "subtitle": "A Wii U gamepad emulator.",
+      "localizedDescription": "A Wii U gamepad emulator.",
       "iconURL": "https://aeryli.github.io/vanilla-alt/icon-1024.png",
       "tintColor": "#24ccfc",
       "category": "games",
